@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@plugin "@midudev/tailwind-animations";
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url(/midu-practice/assets/Inter-VariableFont_opsz\,wght.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 100 7000;
+    font-display: swap;
+}
+
+
+@theme{
+
+    /* COLORES */
+    --color-paolo: #48e;
+
+    /* BREAKPOINTS */
+    --breakpoint-xs: 360px;
+
+    --font-inter:'Inter', system-ui, sans-serif;
+}
